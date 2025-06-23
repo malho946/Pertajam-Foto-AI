@@ -1,31 +1,18 @@
 
-# 📸 Pertajam Foto AI (Streamlit)
+# 📸 Pertajam Foto (Versi Ringan)
 
-Aplikasi AI berbasis Streamlit untuk mempertajam gambar buram menggunakan model Real-ESRGAN.
+Aplikasi Streamlit untuk mempertajam foto buram menggunakan OpenCV (tanpa AI). Bisa dijalankan secara lokal atau di Streamlit Cloud.
 
-## 🔧 Fitur
-- Upload gambar JPG/PNG
-- Pertajam otomatis dengan Real-ESRGAN (AI super resolution)
-- Lihat hasil sebelum & sesudah
-- Unduh gambar hasil
-
-## 🚀 Cara Jalankan Secara Lokal
-
+## 🚀 Jalankan Lokal
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 🌐 Coba Online
+## 🌐 Jalankan Online
+Upload ke [Streamlit Cloud](https://streamlit.io/cloud)
 
-Deploy gratis via [Streamlit Cloud](https://streamlit.io/cloud) — cocok untuk demo & penggunaan ringan.
-
-## 🛠️ Teknologi
+## Teknologi
 - Python
 - Streamlit
-- Torch
-- Real-ESRGAN
-
----
-
-Made with ❤️ by [@malho946](https://github.com/malho946)
+- OpenCV
